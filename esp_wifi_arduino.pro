@@ -1,11 +1,6 @@
-update=2015/10/24 19:09:04
+update=2015/10/24 19:45:59
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -28,7 +23,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -46,7 +40,7 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=kamiya_modules
-LibName18=kicad-ESP8266/ESP8266.pretty/ESP-13-WROOM-02
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -87,3 +81,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=kamiya_components
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

@@ -1,0 +1,213 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2015/10/24 20:39:48
+
+BeginCmp
+TimeStamp = /562B4D29;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B4D1C;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B4DE7;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B5CD6;
+Reference = C4;
+ValeurCmp = 22pF;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B5CF7;
+Reference = C5;
+ValeurCmp = 22pF;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B7CE0;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B7A9D;
+Reference = C7;
+ValeurCmp = C;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B45B8;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B45C5;
+Reference = C9;
+ValeurCmp = 10uF;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B8108;
+Reference = C10;
+ValeurCmp = C;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B43E3;
+Reference = CON1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B5824;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B6D9A;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B43CA;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B726E;
+Reference = P1;
+ValeurCmp = CONN_15;
+IdModule  = PIN_ARRAY_15x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B73AD;
+Reference = P2;
+ValeurCmp = CONN_15;
+IdModule  = PIN_ARRAY_15x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B57C2;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B6D94;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B51A9;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B4FF1;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B5202;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B5208;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B520E;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B704F;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = ALPS_SW_SKRPACE010;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B4BFE;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = ALPS_SW_SKRPACE010;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B4BE0;
+Reference = SW3;
+ValeurCmp = DIPSW4;
+IdModule  = OTAX_DIPSW4;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B43AC;
+Reference = U1;
+ValeurCmp = ADG3304;
+IdModule  = AD_TSSOP-14(0.65);
+EndCmp
+
+BeginCmp
+TimeStamp = /562B43BB;
+Reference = U2;
+ValeurCmp = ESP-WROOM-02;
+IdModule  = ESP_WROOM_02;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B454A;
+Reference = U3;
+ValeurCmp = NJM2391DL1-33;
+IdModule  = TO-252-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /562B5CC7;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = XTAL_HC-49;
+EndCmp
+
+EndListe

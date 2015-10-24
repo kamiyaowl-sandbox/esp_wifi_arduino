@@ -221,9 +221,9 @@ F 3 "" H 4875 4325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6675 3450 0    60   ~ 0
-ArduinoTX33
-Text Label 6675 3550 0    60   ~ 0
 ArduinoRX33
+Text Label 6675 3550 0    60   ~ 0
+ArduinoTX33
 Text Label 9475 5550 0    60   ~ 0
 ArduinoTX33
 Text Label 9475 5450 0    60   ~ 0
@@ -1237,4 +1237,12 @@ Wire Wire Line
 Text Notes 7800 2450 0    60   ~ 0
 Arduino nano compatible.
 Connection ~ 1750 1950
+Text Notes 5250 3200 0    60   ~ 0
+5V - 3.3V Convert\n
+Text Notes 3900 5000 0    60   ~ 0
+3.3V 1A
+Text Notes 5250 4850 0    60   ~ 0
+BOOT Mode
+Text Notes 7900 1650 0    60   ~ 0
+AVRISP
 $EndSCHEMATC

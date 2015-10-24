@@ -1236,4 +1236,5 @@ Wire Wire Line
 	2125 3100 2275 3100
 Text Notes 7800 2450 0    60   ~ 0
 Arduino nano compatible.
+Connection ~ 1750 1950
 $EndSCHEMATC
