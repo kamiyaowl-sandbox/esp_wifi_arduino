@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:kamiya_components
+LIBS:esp_wifi_arduino-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Arduino with ESP-WROOM-02"
-Date "24 oct 2015"
+Date "25 oct 2015"
 Rev "A"
 Comp "Asumono-LAB"
 Comment1 ""
@@ -75,17 +76,6 @@ F 1 "ATMEGA328P-A" H 3575 1350 40  0000 L BNN
 F 2 "TQFP32" H 3175 2750 30  0000 C CIN
 F 3 "" H 3175 2750 60  0000 C CNN
 	1    3175 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L AVR-ISP-6 CON1
-U 1 1 562B43E3
-P 8475 2025
-F 0 "CON1" H 8395 2265 50  0000 C CNN
-F 1 "AVR-ISP-6" H 8235 1795 50  0000 L BNN
-F 2 "AVR-ISP-6" V 7955 2065 50  0001 C CNN
-F 3 "" H 8475 2025 60  0000 C CNN
-	1    8475 2025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1245,4 +1235,47 @@ Text Notes 5250 4850 0    60   ~ 0
 BOOT Mode
 Text Notes 7900 1650 0    60   ~ 0
 AVRISP
+Connection ~ 9525 5150
+Connection ~ 10125 5150
+Connection ~ 7775 2125
+Connection ~ 7175 2125
+$Comp
+L GND #PWR035
+U 1 1 562CAD09
+P 4075 4725
+F 0 "#PWR035" H 4075 4725 30  0001 C CNN
+F 1 "GND" H 4075 4655 30  0001 C CNN
+F 2 "" H 4075 4725 60  0000 C CNN
+F 3 "" H 4075 4725 60  0000 C CNN
+	1    4075 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 562CAD21
+P 4075 4475
+F 0 "P3" H 4155 4475 40  0000 L CNN
+F 1 "CONN_1" H 4075 4530 30  0001 C CNN
+F 2 "~" H 4075 4475 60  0000 C CNN
+F 3 "~" H 4075 4475 60  0000 C CNN
+	1    4075 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 562CAD2E
+P 4175 4475
+F 0 "P4" H 4255 4475 40  0000 L CNN
+F 1 "CONN_1" H 4175 4530 30  0001 C CNN
+F 2 "~" H 4175 4475 60  0000 C CNN
+F 3 "~" H 4175 4475 60  0000 C CNN
+	1    4175 4475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4075 4625 4075 4725
+Wire Wire Line
+	4175 4625 4075 4625
+Connection ~ 4175 4625
+Connection ~ 4075 4625
 $EndSCHEMATC
