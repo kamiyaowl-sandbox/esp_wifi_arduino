@@ -1,4 +1,4 @@
-update=2015/10/25 19:15:59
+update=2015/10/26 20:16:39
 version=1
 last_client=pcbnew
 [general]
@@ -87,3 +87,4 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=kamiya_modules
 LibName18=C:/Users/owl/repos/kicad_lib_hastech/sohgiken
+LibName19=asumono-logo
