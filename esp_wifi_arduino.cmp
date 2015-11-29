@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2015/11/29 20:13:23
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2015/11/30 0:07:25
 
 BeginCmp
 TimeStamp = /562B4D29;
@@ -71,20 +71,6 @@ IdModule  = HANDSOL_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /565AE15D;
-Reference = CON1;
-ValeurCmp = AVR-ISP-6;
-IdModule  = pin_array_3x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /562B5824;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = HANDSOL_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /562B6D9A;
 Reference = D2;
 ValeurCmp = LED;
@@ -124,13 +110,6 @@ TimeStamp = /565CD6C2;
 Reference = P6;
 ValeurCmp = CONN_01X04;
 IdModule  = PIN_ARRAY_4x1;
-EndCmp
-
-BeginCmp
-TimeStamp = /562B57C2;
-Reference = R1;
-ValeurCmp = R;
-IdModule  = HANDSOL_0603;
 EndCmp
 
 BeginCmp
@@ -190,13 +169,6 @@ IdModule  = SEL;
 EndCmp
 
 BeginCmp
-TimeStamp = /565B9EEA;
-Reference = S3;
-ValeurCmp = EN_SEL;
-IdModule  = ALPS_SSSS213202(SlideSW);
-EndCmp
-
-BeginCmp
 TimeStamp = /562B704F;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
@@ -215,6 +187,13 @@ TimeStamp = /562B4BE0;
 Reference = SW3;
 ValeurCmp = DIPSW4;
 IdModule  = OTAX_DIPSW4;
+EndCmp
+
+BeginCmp
+TimeStamp = /565B1479;
+Reference = SW4;
+ValeurCmp = SWITCH_INV;
+IdModule  = ALPS_SSSS213202(SlideSW);
 EndCmp
 
 BeginCmp
