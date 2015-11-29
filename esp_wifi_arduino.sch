@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:esp_wifi_arduino-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,9 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:kamiya_components
 LIBS:esp_wifi_arduino-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -68,7 +67,7 @@ F 3 "~" H 8125 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATMEGA328P-A IC1
+L ATMEGA328P-A-RESCUE-esp_wifi_arduino IC1
 U 1 1 562B43CA
 P 3175 2750
 F 0 "IC1" H 2425 4000 40  0000 L BNN
@@ -90,7 +89,7 @@ F 3 "~" H 3275 5175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-esp_wifi_arduino C8
 U 1 1 562B45B8
 P 2575 5425
 F 0 "C8" H 2575 5525 40  0000 L CNN
@@ -101,7 +100,7 @@ F 3 "~" H 2575 5425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-esp_wifi_arduino C9
 U 1 1 562B45C5
 P 4025 5425
 F 0 "C9" H 4025 5525 40  0000 L CNN
@@ -112,7 +111,7 @@ F 3 "~" H 4025 5425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR01
+L +3.3V-RESCUE-esp_wifi_arduino #PWR01
 U 1 1 562B463A
 P 4125 5175
 F 0 "#PWR01" H 4125 5135 30  0001 C CNN
@@ -134,7 +133,7 @@ F 3 "" H 2425 5175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND-RESCUE-esp_wifi_arduino #PWR03
 U 1 1 562B4658
 P 3275 5875
 F 0 "#PWR03" H 3275 5875 30  0001 C CNN
@@ -189,7 +188,7 @@ F 3 "" H 6525 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L +3.3V-RESCUE-esp_wifi_arduino #PWR06
 U 1 1 562B4C64
 P 6425 3300
 F 0 "#PWR06" H 6425 3260 30  0001 C CNN
@@ -200,7 +199,7 @@ F 3 "" H 6425 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND-RESCUE-esp_wifi_arduino #PWR07
 U 1 1 562B4C79
 P 4875 4325
 F 0 "#PWR07" H 4875 4325 30  0001 C CNN
@@ -230,7 +229,7 @@ F 3 "" H 1450 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-esp_wifi_arduino C2
 U 1 1 562B4D1C
 P 1600 1950
 F 0 "C2" H 1600 2050 40  0000 L CNN
@@ -241,7 +240,7 @@ F 3 "~" H 1600 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-esp_wifi_arduino C1
 U 1 1 562B4D29
 P 1450 1850
 F 0 "C1" H 1450 1950 40  0000 L CNN
@@ -252,7 +251,7 @@ F 3 "~" H 1450 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND-RESCUE-esp_wifi_arduino #PWR09
 U 1 1 562B4DC1
 P 1450 2500
 F 0 "#PWR09" H 1450 2500 30  0001 C CNN
@@ -263,7 +262,7 @@ F 3 "" H 1450 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-esp_wifi_arduino C3
 U 1 1 562B4DE7
 P 1750 2150
 F 0 "C3" H 1750 2250 40  0000 L CNN
@@ -274,7 +273,7 @@ F 3 "~" H 1750 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L GND-RESCUE-esp_wifi_arduino #PWR010
 U 1 1 562B4F62
 P 2125 4050
 F 0 "#PWR010" H 2125 4050 30  0001 C CNN
@@ -285,7 +284,7 @@ F 3 "" H 2125 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-esp_wifi_arduino R4
 U 1 1 562B4FF1
 P 9525 4850
 F 0 "R4" V 9605 4850 40  0000 C CNN
@@ -296,7 +295,7 @@ F 3 "~" H 9525 4850 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR011
+L +3.3V-RESCUE-esp_wifi_arduino #PWR011
 U 1 1 562B5060
 P 9525 4550
 F 0 "#PWR011" H 9525 4510 30  0001 C CNN
@@ -307,7 +306,7 @@ F 3 "" H 9525 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L GND-RESCUE-esp_wifi_arduino #PWR012
 U 1 1 562B509D
 P 7175 6225
 F 0 "#PWR012" H 7175 6225 30  0001 C CNN
@@ -318,7 +317,7 @@ F 3 "" H 7175 6225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L GND-RESCUE-esp_wifi_arduino #PWR013
 U 1 1 562B50D2
 P 9275 5400
 F 0 "#PWR013" H 9275 5400 30  0001 C CNN
@@ -329,7 +328,7 @@ F 3 "" H 9275 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-esp_wifi_arduino R3
 U 1 1 562B51A9
 P 6625 4850
 F 0 "R3" V 6705 4850 40  0000 C CNN
@@ -340,7 +339,7 @@ F 3 "~" H 6625 4850 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-esp_wifi_arduino R5
 U 1 1 562B5202
 P 6475 5000
 F 0 "R5" V 6555 5000 40  0000 C CNN
@@ -351,7 +350,7 @@ F 3 "~" H 6475 5000 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-esp_wifi_arduino R6
 U 1 1 562B5208
 P 6325 5150
 F 0 "R6" V 6405 5150 40  0000 C CNN
@@ -362,7 +361,7 @@ F 3 "~" H 6325 5150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-esp_wifi_arduino R7
 U 1 1 562B520E
 P 6175 5300
 F 0 "R7" V 6255 5300 40  0000 C CNN
@@ -373,7 +372,7 @@ F 3 "~" H 6175 5300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR014
+L +3.3V-RESCUE-esp_wifi_arduino #PWR014
 U 1 1 562B5214
 P 7175 4800
 F 0 "#PWR014" H 7175 4760 30  0001 C CNN
@@ -384,7 +383,7 @@ F 3 "" H 7175 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR015
+L +3.3V-RESCUE-esp_wifi_arduino #PWR015
 U 1 1 562B5260
 P 6625 4550
 F 0 "#PWR015" H 6625 4510 30  0001 C CNN
@@ -395,7 +394,7 @@ F 3 "" H 6625 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND-RESCUE-esp_wifi_arduino #PWR016
 U 1 1 562B536B
 P 4875 5750
 F 0 "#PWR016" H 4875 5750 30  0001 C CNN
@@ -406,7 +405,7 @@ F 3 "" H 4875 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND-RESCUE-esp_wifi_arduino #PWR017
 U 1 1 562B5495
 P 9275 4900
 F 0 "#PWR017" H 9275 4900 30  0001 C CNN
@@ -417,7 +416,7 @@ F 3 "" H 9275 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND-RESCUE-esp_wifi_arduino #PWR018
 U 1 1 562B54E9
 P 10225 5200
 F 0 "#PWR018" H 10225 5200 30  0001 C CNN
@@ -428,7 +427,7 @@ F 3 "" H 10225 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-esp_wifi_arduino R1
 U 1 1 562B57C2
 P 5325 2150
 F 0 "R1" V 5405 2150 40  0000 C CNN
@@ -439,7 +438,7 @@ F 3 "~" H 5325 2150 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-esp_wifi_arduino D1
 U 1 1 562B5824
 P 5875 2150
 F 0 "D1" H 5875 2250 50  0000 C CNN
@@ -450,7 +449,7 @@ F 3 "~" H 5875 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND-RESCUE-esp_wifi_arduino #PWR019
 U 1 1 562B5831
 P 6175 2250
 F 0 "#PWR019" H 6175 2250 30  0001 C CNN
@@ -472,7 +471,7 @@ F 3 "~" H 5125 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-esp_wifi_arduino C4
 U 1 1 562B5CD6
 P 4825 2800
 F 0 "C4" H 4825 2900 40  0000 L CNN
@@ -483,7 +482,7 @@ F 3 "~" H 4825 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-esp_wifi_arduino C5
 U 1 1 562B5CF7
 P 5425 2800
 F 0 "C5" H 5425 2900 40  0000 L CNN
@@ -494,7 +493,7 @@ F 3 "~" H 5425 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L GND-RESCUE-esp_wifi_arduino #PWR020
 U 1 1 562B5CFD
 P 4825 3050
 F 0 "#PWR020" H 4825 3050 30  0001 C CNN
@@ -505,7 +504,7 @@ F 3 "" H 4825 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L GND-RESCUE-esp_wifi_arduino #PWR021
 U 1 1 562B5D6B
 P 5425 3050
 F 0 "#PWR021" H 5425 3050 30  0001 C CNN
@@ -587,7 +586,7 @@ F 3 "" H 8975 1875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L GND-RESCUE-esp_wifi_arduino #PWR023
 U 1 1 562B67E7
 P 8975 2150
 F 0 "#PWR023" H 8975 2150 30  0001 C CNN
@@ -598,7 +597,7 @@ F 3 "" H 8975 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-esp_wifi_arduino R2
 U 1 1 562B6D94
 P 2950 4625
 F 0 "R2" V 3030 4625 40  0000 C CNN
@@ -609,7 +608,7 @@ F 3 "~" H 2950 4625 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-esp_wifi_arduino D2
 U 1 1 562B6D9A
 P 3500 4625
 F 0 "D2" H 3500 4725 50  0000 C CNN
@@ -620,7 +619,7 @@ F 3 "~" H 3500 4625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND-RESCUE-esp_wifi_arduino #PWR024
 U 1 1 562B6DA0
 P 3800 4725
 F 0 "#PWR024" H 3800 4725 30  0001 C CNN
@@ -655,7 +654,7 @@ F 3 "~" H 7475 2125 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L GND-RESCUE-esp_wifi_arduino #PWR026
 U 1 1 562B7055
 P 7125 2175
 F 0 "#PWR026" H 7125 2175 30  0001 C CNN
@@ -705,7 +704,7 @@ D11
 Text Label 7500 4050 0    60   ~ 0
 D12
 $Comp
-L GND #PWR027
+L GND-RESCUE-esp_wifi_arduino #PWR027
 U 1 1 562B7319
 P 7400 3000
 F 0 "#PWR027" H 7400 3000 30  0001 C CNN
@@ -751,7 +750,7 @@ A1
 Text Label 9175 3750 2    60   ~ 0
 A0
 $Comp
-L +3.3V #PWR028
+L +3.3V-RESCUE-esp_wifi_arduino #PWR028
 U 1 1 562B76DE
 P 9250 3925
 F 0 "#PWR028" H 9250 3885 30  0001 C CNN
@@ -784,7 +783,7 @@ F 3 "" H 9225 2925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L GND-RESCUE-esp_wifi_arduino #PWR031
 U 1 1 562B76F0
 P 9350 2775
 F 0 "#PWR031" H 9350 2775 30  0001 C CNN
@@ -806,7 +805,7 @@ F 3 "" H 4575 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR033
+L +3.3V-RESCUE-esp_wifi_arduino #PWR033
 U 1 1 562B7C34
 P 4775 3750
 F 0 "#PWR033" H 4775 3710 30  0001 C CNN
@@ -817,7 +816,7 @@ F 3 "" H 4775 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-esp_wifi_arduino C6
 U 1 1 562B7CE0
 P 4575 4025
 F 0 "C6" H 4575 4125 40  0000 L CNN
@@ -828,7 +827,7 @@ F 3 "~" H 4575 4025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-esp_wifi_arduino C7
 U 1 1 562B7A9D
 P 4775 4025
 F 0 "C7" H 4775 4125 40  0000 L CNN
@@ -1154,7 +1153,7 @@ Wire Wire Line
 Wire Wire Line
 	4575 3750 4575 3825
 $Comp
-L C C10
+L C-RESCUE-esp_wifi_arduino C10
 U 1 1 562B8108
 P 7025 5925
 F 0 "C10" H 7025 6025 40  0000 L CNN
@@ -1165,7 +1164,7 @@ F 3 "~" H 7025 5925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR034
+L +3.3V-RESCUE-esp_wifi_arduino #PWR034
 U 1 1 562B81D7
 P 7025 5700
 F 0 "#PWR034" H 7025 5660 30  0001 C CNN
@@ -1240,7 +1239,7 @@ Connection ~ 10125 5150
 Connection ~ 7775 2125
 Connection ~ 7175 2125
 $Comp
-L GND #PWR035
+L GND-RESCUE-esp_wifi_arduino #PWR035
 U 1 1 562CAD09
 P 4075 4725
 F 0 "#PWR035" H 4075 4725 30  0001 C CNN
