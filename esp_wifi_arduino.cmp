@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2015/10/25 19:15:41
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2015/11/29 20:13:23
 
 BeginCmp
 TimeStamp = /562B4D29;
@@ -71,7 +71,7 @@ IdModule  = HANDSOL_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /562B43E3;
+TimeStamp = /565AE15D;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
 IdModule  = pin_array_3x2;
@@ -99,45 +99,31 @@ IdModule  = TQFP32;
 EndCmp
 
 BeginCmp
-TimeStamp = /562B726E;
+TimeStamp = /565C0148;
 Reference = P1;
-ValeurCmp = CONN_15;
+ValeurCmp = CONN_01X15;
 IdModule  = PIN_ARRAY_15x1;
 EndCmp
 
 BeginCmp
-TimeStamp = /562B73AD;
+TimeStamp = /565C058B;
 Reference = P2;
-ValeurCmp = CONN_15;
+ValeurCmp = CONN_01X15;
 IdModule  = PIN_ARRAY_15x1;
 EndCmp
 
 BeginCmp
-TimeStamp = /562CAD21;
-Reference = P3;
-ValeurCmp = CONN_1;
-IdModule  = M3_Drill;
-EndCmp
-
-BeginCmp
-TimeStamp = /562CAD2E;
-Reference = P4;
-ValeurCmp = CONN_1;
-IdModule  = M3_Drill;
-EndCmp
-
-BeginCmp
-TimeStamp = /562CAD34;
+TimeStamp = /565CD625;
 Reference = P5;
-ValeurCmp = CONN_1;
-IdModule  = M3_Drill;
+ValeurCmp = CONN_01X04;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
-TimeStamp = /562CAD3A;
+TimeStamp = /565CD6C2;
 Reference = P6;
-ValeurCmp = CONN_1;
-IdModule  = M3_Drill;
+ValeurCmp = CONN_01X04;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
@@ -187,6 +173,27 @@ TimeStamp = /562B520E;
 Reference = R7;
 ValeurCmp = R;
 IdModule  = HANDSOL_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /565B8644;
+Reference = S1;
+ValeurCmp = RX_SEL;
+IdModule  = SEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /565B9044;
+Reference = S2;
+ValeurCmp = TX_SEL;
+IdModule  = SEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /565B9EEA;
+Reference = S3;
+ValeurCmp = EN_SEL;
+IdModule  = ALPS_SSSS213202(SlideSW);
 EndCmp
 
 BeginCmp

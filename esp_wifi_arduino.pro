@@ -1,8 +1,6 @@
-update=2015/11/21 18:50:34
+update=2015/11/29 20:08:33
 version=1
 last_client=kicad
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -83,4 +81,6 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-LibName32=kamiya_components
+LibName32=C:/Users/owl/repos/kicad_symbol/kamiya
+[general]
+version=1
