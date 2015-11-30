@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Arduino with ESP-WROOM-02"
-Date "29 nov 2015"
+Date "30 nov 2015"
 Rev "A"
 Comp "Asumono-LAB"
 Comment1 ""
@@ -803,7 +803,7 @@ Text Notes 7250 4200 0    60   ~ 0
 3.3V 1A
 Text Notes 1450 5800 0    60   ~ 0
 BOOT Mode
-Text Notes 8650 5525 0    60   ~ 0
+Text Notes 8650 5650 0    60   ~ 0
 AVRISP
 Text Label 7025 1750 2    60   ~ 0
 D0
@@ -1265,17 +1265,17 @@ Wire Wire Line
 Wire Wire Line
 	8350 2325 8175 2325
 Wire Wire Line
-	8975 5000 8750 5000
-Wire Wire Line
-	8975 5100 8750 5100
-Wire Wire Line
-	8975 5200 8750 5200
-Wire Wire Line
-	9575 5000 9800 5000
+	9575 5200 9800 5200
 Wire Wire Line
 	9575 5100 9800 5100
 Wire Wire Line
-	9575 5200 9800 5200
+	9575 5000 9800 5000
+Wire Wire Line
+	8975 5200 8750 5200
+Wire Wire Line
+	8975 5100 8750 5100
+Wire Wire Line
+	8975 5000 8750 5000
 Wire Wire Line
 	5625 5800 5625 5875
 Wire Wire Line
@@ -1302,53 +1302,53 @@ Text Label 3275 6100 0    60   ~ 0
 IO12
 Text Label 3275 6200 0    60   ~ 0
 IO13
-Text Label 9775 5200 2    60   ~ 0
+Text Label 8775 5000 0    60   ~ 0
 IO14
-Text Label 8750 5200 0    60   ~ 0
+Text Label 9800 5000 2    60   ~ 0
 IO12
-Text Label 8750 5300 0    60   ~ 0
+Text Label 9800 4900 2    60   ~ 0
 IO13
-Text Label 8750 5000 0    60   ~ 0
+Text Label 9800 5200 2    60   ~ 0
 IO4
-Text Label 8750 5100 0    60   ~ 0
+Text Label 9800 5100 2    60   ~ 0
 IO5
-Text Label 9775 5300 2    60   ~ 0
+Text Label 8775 4900 0    60   ~ 0
 IO16
 $Comp
 L CONN_01X04 P5
 U 1 1 565CD625
-P 9175 5150
-F 0 "P5" H 9175 5400 50  0000 C CNN
-F 1 "CONN_01X04" V 9275 5150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 9175 5150 60  0001 C CNN
-F 3 "" H 9175 5150 60  0000 C CNN
-	1    9175 5150
-	1    0    0    -1  
+P 9375 5050
+F 0 "P5" H 9375 5300 50  0000 C CNN
+F 1 "CONN_01X04" V 9475 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 9375 5050 60  0001 C CNN
+F 3 "" H 9375 5050 60  0000 C CNN
+	1    9375 5050
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X04 P6
 U 1 1 565CD6C2
-P 9375 5150
-F 0 "P6" H 9375 5400 50  0000 C CNN
-F 1 "CONN_01X04" V 9475 5150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 9375 5150 60  0001 C CNN
-F 3 "" H 9375 5150 60  0000 C CNN
-	1    9375 5150
-	-1   0    0    1   
+P 9175 5050
+F 0 "P6" H 9175 5300 50  0000 C CNN
+F 1 "CONN_01X04" V 9275 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 9175 5050 60  0001 C CNN
+F 3 "" H 9175 5050 60  0000 C CNN
+	1    9175 5050
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8975 5300 8750 5300
+	9575 4900 9800 4900
 Wire Wire Line
-	9575 5300 9800 5300
-Text Notes 8775 4825 0    60   ~ 0
+	8975 4900 8750 4900
+Text Notes 8800 4750 0    60   ~ 0
 ESP-WROOM-02 GPIO
 Text Label 10250 1750 2    60   ~ 0
 ESP_TX
 Text Label 10250 1850 2    60   ~ 0
 ESP_RX
-Text Label 9600 5000 0    60   ~ 0
+Text Label 8950 5200 2    60   ~ 0
 ESP_TX
-Text Label 9600 5100 0    60   ~ 0
+Text Label 8950 5100 2    60   ~ 0
 ESP_RX
 NoConn ~ 8500 1950
 NoConn ~ 8500 2050
